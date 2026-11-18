@@ -1,0 +1,32 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Frontend dependencies
+node_modules/
+dist/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded visitor photographs and generated files
+backend/uploads/
+uploads/
+storage/
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
